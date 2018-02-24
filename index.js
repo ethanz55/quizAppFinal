@@ -127,22 +127,22 @@ function handleStartButton() {
             <fieldset>
             <legend>${questionList[questionNumber].question}</legend>
               <label for="answer1">
-                <input type="radio" name="answer" id="answer1" required>
+                <input type="radio" name="answer1" id="answer1" required>
               ${questionList[questionNumber].answer1}
               </label>
               
               <label for="answer2">
-                <input type="radio" name="answer" id="answer2" required>
+                <input type="radio" name="answer2" id="answer2" required>
               ${questionList[questionNumber].answer2}
               </label>
                 
               <label for="answer3">
-                <input type="radio" name="answer" id="answer3" required>
+                <input type="radio" name="answer3" id="answer3" required>
               ${questionList[questionNumber].answer3}
               </label>
                 
               <label for="answer4">
-                <input type="radio" name="answer" id="answer4" required>
+                <input type="radio" name="answer4" id="answer4" required>
               ${questionList[questionNumber].answer4}
               </label>
               
